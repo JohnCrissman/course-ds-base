@@ -1,0 +1,4 @@
+stages:
+  data_load:
+    cmd: \ -d src/stages/data_load.py \ -o data/raw/iris.csv \ -p base,data_load \
+      python src/stages/data_load.py --config=params.yaml
